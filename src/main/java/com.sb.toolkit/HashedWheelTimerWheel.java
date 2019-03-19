@@ -39,7 +39,7 @@ public class HashedWheelTimerWheel {
      * A timer wheel containing 1024 slots, as powers of 2 allows for
      * better hash collisions
      */
-    class TimerWheel {
+    public class TimerWheel {
 
         private int MAX_CAPACITY = 1024;
         private SortedMap<Integer, Consumer<Boolean>>[] timers;
